@@ -1,5 +1,52 @@
-.html, body {
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #0c0707;
- }
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: #0c0707;
+    display: block;
+}
+
+.controls,
+.overlay,
+.hint {
+    position: absolute;
+    z-index: 10;
+}
+
+.controls {
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.controls .control-group {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.overlay {
+    top: 20px;
+    right: 20px;
+    left: auto;
+    text-align: right;
+}
+
+.hint {
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 14px;
+}
