@@ -19,6 +19,7 @@ You can customize the interaction using controls on the screen:
 
 1. Clone or download this repository.
 2. Open index.html in any web browser.
+2. or open [hhtps](https://dasher2801.github.io/Hackstars/)
 3. Click anywhere on the screen to trigger a shockwave.
 
 ## Built With
